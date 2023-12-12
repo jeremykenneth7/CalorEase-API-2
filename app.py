@@ -160,7 +160,7 @@ def prediction():
                 "message": "Success",
             },
             "data": {
-                "prediction": detections_dict,
+                "prediction": formatted_predictions,
             }
         }), 200
         
