@@ -19,7 +19,7 @@ client = storage.Client()
 model_cat = ["daging", "jajanan", "karbo", "lauk", "olahan_daging", "sayur"]
 models = {}
 category_indices = {}
-threshold = 0.5
+threshold = 0.65
 
 def read_label_file(label_path):
     id_pattern = r'id:\s*(\d+)'
